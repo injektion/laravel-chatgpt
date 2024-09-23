@@ -1,5 +1,5 @@
 {
-    "name": "hesamrad/laravel-chatgpt",
+    "name": "injektion/laravel-chatgpt",
     "description": "A lightweight library to integrate chatGpt into your Laravel application!",
     "type": "library",
     "license": "MIT",
@@ -10,7 +10,7 @@
     ], 
     "autoload": {
         "psr-4": {
-            "HesamRad\\LaravelChatGpt\\": "src/"
+            "Injektion\\LaravelChatGpt\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -18,7 +18,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "HesamRad\\LaravelChatGpt\\Tests\\": "tests"
+            "Injektion\\LaravelChatGpt\\Tests\\": "tests"
         }
     },
     "authors": [
@@ -47,10 +47,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "HesamRad\\LaravelChatGpt\\LaravelChatGptServiceProvider"
+                "Injektion\\LaravelChatGpt\\LaravelChatGptServiceProvider"
             ],
             "aliases": {
-                "ChatGpt": "HesamRad\\LaravelChatGpt\\ChatGptFacade"
+                "ChatGpt": "Injektion\\LaravelChatGpt\\ChatGptFacade"
             }
         }
     }
